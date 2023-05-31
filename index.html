@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Number Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>VLSM Number Generator</h1>
+
+  <script src="script.js"></script>
+  <form>
+    <label for="router">Select how many Router(s):</label>
+    <select id="router">
+      <option value="1">Router 1</option>
+      <option value="2">Router 2</option>
+      <option value="3">Router 3</option>
+      <option value="4">Router 4</option>
+    </select>
+
+    <label for="devices">Select how many Device(s):</label>
+    <select id="devices">
+      <option value="1">1 Device</option>
+      <option value="2">2 Devices</option>
+      <option value="3">3 Devices</option>
+      <option value="4">4 Devices</option>
+      <option value="5">5 Devices</option>
+      <option value="6">6 Devices</option>
+      <option value="7">7 Devices</option>
+    </select>
+
+    <input type="submit" value="Generate" onclick="generateNumbers(event)">
+  </form>
+<div id="result"div>
+</div>
+  <table id="inputTable">
+      <table border = "1">
+    <thead>
+      <tr>
+        <th>Needed Hosts</th>
+        <th>CIDR</th>
+        <th>NetID</th>
+        <th>Usable Range</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <!-- Repeat this row 7 more times -->
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+      </tr>
+      <tr>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+      </tr><tr>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+      </tr><tr>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+      </tr><tr>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+      </tr><tr>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+        <td contenteditable="true"></td>
+      </tr>
+    </tbody>
+</table>
+  </table>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
